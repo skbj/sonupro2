@@ -1,0 +1,123 @@
+* {
+
+
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.navbar {
+
+    padding: 10px 30px;
+
+    margin: auto;
+
+
+
+}
+
+
+.nav-item {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: red;
+
+}
+
+.navbar-brand {
+    font-size: 30px;
+
+}
+
+.nav-item nav-link active {
+
+    color: red;
+}
+
+.carousel-item {
+    height: 80vh;
+    position: relative;
+}
+
+.card img {
+
+    width: 50%;
+    height: 150px;
+    margin: auto;
+
+}
+
+.about {
+
+
+    width: 100%;
+}
+
+.service {
+    width:90%;
+    margin: auto;
+
+
+}
+.contact1{
+
+width: 90%;
+
+
+}
+.team {
+
+    width: 90%;
+    margin: auto;
+
+
+
+}
+
+.contact{
+
+width: 100%;
+
+
+}
+.service1{
+
+width: 90%;
+
+
+
+}
+
+
+
+/* responsive for mobile */
+@media screen and (max-width:600px) {
+
+
+    .about {
+        margin-top:-350px;
+    }
+
+
+    .about1{
+        margin-top:-350px;
+    }
+
+.service1{
+    margin-top:-350px;
+
+
+
+}
+
+.contact1{
+    margin-top:-350px;
+
+
+
+
+} 
+
+}
+
